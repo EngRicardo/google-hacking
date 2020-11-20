@@ -1,0 +1,69 @@
+.center {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.center img {
+  height: 60%;
+  width: 60%;
+}
+
+.formulario {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+}
+
+.formulario input {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 3px solid green;
+}
+
+.main {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.esquerda {
+  width: 20%;
+}
+
+.meio {
+  width: 20%;
+}
+
+.direita {
+  width: 20%;
+}
+
+ul li{
+  list-style: none;
+}
+
+img{
+  width: 100%;
+}
+
+.instrucao{
+  margin: auto;
+  width: 70%;
+  font-size: large;
+  text-align: center;
+}
+
+.advanced {
+  margin-right: 20px;
+  background:silver;
+  float: right;
+  width: 20%;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google hacking</title>
+    <script type="text/javascript" src="js/googlehacking.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/estilo.css" />
+
+</head>
+<body>
+    <div class="advanced">
+        <ul>
+            <p>Google hacking avançado: </p>
+            <li>
+                <a href="#" onclick="confidencial(1)" >Usuarios</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(2)" >Pregão</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(3)" >User and Password</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(4)" >Documentos sensiveis</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(5)" >Confidencial / secreto</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(6)" >User and Password 2</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(7)" >Admin .asp</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(8)" >User list</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(9)" >JDBC Oracle</a>
+            </li>
+    
+            <li>
+                <a href="#" onclick="confidencial(10)" >User and Password 3</a>
+            </li>
+        </ul>
+    
+        </div>
+
+    <div class="center">
+        <img src="google-hk.png" alt="google">
+            <div class="instrucao">
+                <p>Faça o upload de um arquivo ".txt" similar a este: <a href="uploads/demo.txt" target="_blank">demo.txt</a> ou insira um site e selecione uma das opções para uma unica busca.</p>
+                <p>O arvivo .txt deve conter uma "pesquisa" por linha, com um ou mais de um parametro por linha, como visto no exemplo <a href="uploads/demo.txt" target="_blank">demo.txt</a>.</p>
+                <p>As pesquisas do arquivo não devem conter espaços. No lugar dos espaços deve ter um "+" para substitui-lo.</p>
+            </div>
+
+
+            <form action="upload.php" method="post" enctype="multipart/form-data" target="_blank">
+                <input type="file" name="file">
+                <input type="submit" value="Upload">
+            </form>
+            
+
+
+            <form class="formulario" id="php_url" action="extract.php" method=POST target="_blank">
+                <input type="text" name="url_php" placeholder="Exemplo: fiap.com.br">
+                <select name="dorks" id="dorks">
+                    <option value='+intitle:index.of'>index.of</option>
+                    <option value='+ext:xml+|+ext:conf+|+ext:cnf+|+ext:reg+|+ext:inf+|+ext:rdp+|+ext:cfg+|+ext:txt+|+ext:ora+|+ext:ini'>xml</option>
+                    <option value='+ext:sql+|+ext:dbf+|+ext:mdb'>sql</option>
+                    <option value='+ext:log'>log</option>
+                    <option value='+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup'>backup</option>
+                    <option value='+inurl:login'>login</option>
+                    <option value='+intext:"sql+syntax+near"+|+intext:"syntax+error+has+occurred"+|+intext:"incorrect+syntax+near"+|+intext:"unexpected+end+of+SQL+command"+|+intext:"Warning:+mysql_connect()"+|+intext:"Warning:+mysql_query()"+|+intext:"Warning:+pg_connect()"'>SQL error</option>
+                    <option value='+ext:doc+|+ext:docx+|+ext:odt+|+ext:pdf+|+ext:rtf+|+ext:sxw+|+ext:psw+|+ext:ppt+|+ext:pptx+|+ext:pps+|+ext:csv'>documents</option>
+                    <option value='+ext:php+intitle:phpinfo+"published+by+the+PHP+Group"'>phpinfo</option>
+                </select>
+                <button type="submit" form="php_url" value="Submit">Pesquisar</button>
+            </form>
+   </div>
+
+<div class="main">
+   <div class="esquerda">
+        <ul>
+            <p>Alguns exemplos de google hacking:</p>
+            <li>
+                <a href="#" onclick="pastebin(1)" >PAGES THAT CAN'T BE SEARCHED</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(2)" >FTP PASSWORD HASHES</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(3)" >FTP PASSWORD HASHES</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(4)" >FRONT PAGE HACK</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(5)" >PHP PHOTO ALBUMS</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(6)" >VNC HACK (Multi Tabs)</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(7)" >PRINTER CONTROL PANELS</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(8)" >PRINTER CONTROL PANELS</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="pastebin(9)" >PHP ADMINS</a>
+            </li>
+        </ul>
+   </div>
+
+   <div class="meio">
+        <ul>
+            <p>Leak e Câmeras: </p>
+            <li>
+                <a href="#" onclick="hackersec(1)" >PASSWORD DUMP GMAIL</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(2)" >PHPMYADMIN</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(3)" >CPF</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(4)" >GRUPO WHATSAPP</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(5)" >CÂMERAS 1</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(6)" >CÂMERAS 2</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(7)" >CÂMERAS 3</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(8)" >CÂMERAS 4</a>
+            </li>
+
+            <li>
+                <a href="#" onclick="hackersec(9)" >CÂMERAS 5</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="direita">
+        <ul>
+            <p>Referências e Dorks </p>
+            <li>
+                <a href="https://securitytrails.com/blog/google-hacking-techniques" target="_blank">securitytrails</a>
+            </li>
+
+            <li>
+                <a href="https://hackersec.com/usando-google-hacking-para-testes-de-invasao/" target="_blank">hackersec</a>
+            </li>
+
+            <li>
+                <a href="https://tableless.com.br/voce-conhece-google-hacking/" target="_blank">tableless</a>
+            </li>
+
+            <li>
+                <a href="https://www.ufsm.br/pet/sistemas-de-informacao/2020/04/22/google-hacking/" target="_blank">ufsm</a>
+            </li>
+
+            <li>
+                <a href="https://www.cisoadvisor.com.br/quer-ser-hacker-comece-usando-o-google/" target="_blank">cisoadvisor</a>
+            </li>
+
+            <li>
+                <a href="https://gbhackers.com/latest-google-dorks-list/" target="_blank">Dork 1</a>
+            </li>
+
+            <li>
+                <a href="https://pastebin.com/5ButDbyn" target="_blank">Dork 2</a>
+            </li>
+
+            <li>
+                <a href="https://www.exploit-db.com/google-hacking-database" target="_blank">Dork 3</a>
+            </li>
+
+            <li>
+                <a href="https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc" target="_blank">Dork 4</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    
+</body>
+</html>
